@@ -15,12 +15,24 @@ body {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+
+  display: flex;
+  flex-direction: column;
 }
 
 img,
 picture {
   max-width: 100%;
   display: block;
+}
+
+main {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .visually-hidden {
