@@ -44,6 +44,12 @@ main {
 [class|="join-card"] {
   color: var(--light-gray);
 }
+
+[class|="join-card"] > *:first-child,
+[class|="join-card"] > *:last-child {
+  margin: 0;
+}
+
 .join-card-hero h2 {
   color: var(--cyan);
 }
@@ -63,6 +69,7 @@ main {
 .join-card-why {
   background-color: var(--light-cyan);
 }
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
