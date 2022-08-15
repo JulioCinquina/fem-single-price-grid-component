@@ -1,5 +1,11 @@
 :root {
   box-sizing: border-box;
+
+  --cyan: hsl(179, 62%, 43%);
+  --light-cyan: hsl(179, 47%, 52%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
 }
 
 *,
@@ -35,6 +41,28 @@ main {
   align-items: center;
 }
 
+[class|="join-card"] {
+  color: var(--light-gray);
+}
+.join-card-hero h2 {
+  color: var(--cyan);
+}
+
+.join-card-hero p:first-of-type {
+  color: var(--bright-yellow);
+}
+
+.join-card-hero p {
+  color: var(--grayish-blue);
+}
+
+.join-card-cta {
+  background-color: var(--cyan);
+}
+
+.join-card-why {
+  background-color: var(--light-cyan);
+}
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
