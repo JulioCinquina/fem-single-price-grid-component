@@ -4,6 +4,7 @@
   --cyan: hsl(179, 62%, 43%);
   --light-cyan: hsl(179, 47%, 52%);
   --bright-yellow: hsl(71, 73%, 54%);
+  --bright-yellow-hover: hsl(120, 49%, 58%);
   --light-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
 }
@@ -59,6 +60,16 @@ main {
   padding-block: 0.75rem;
 
   border-radius: 0.375rem;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--bright-yellow-hover);
+}
+
+.button:focus-visible {
+  outline: 4px dashed var(--light-gray);
+  outline-offset: 8px;
 }
 
 .join-grid {
