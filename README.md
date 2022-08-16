@@ -34,6 +34,7 @@ In this project, I have practiced the following skills:
 - Using **Flexbox** to arrange content
 - Styling a button's **hover and focus states**
 - Styling elements with **box shadows**
+- Using **semantic HTML markup**
 - Using **CSS relative units** to ensure the text scales according to the user's font size settings
 - Using **CSS custom properties** to allow easy customization and reusability of the component
 - Using **Git** and **GitHub**
