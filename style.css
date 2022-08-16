@@ -82,7 +82,9 @@ main {
   box-shadow: 0 1rem 2rem rgb(0 0 0 / 0.15);
 }
 
-[class|="join-card"] {
+.join-card-hero,
+.join-card-cta,
+.join-card-why {
   padding-block: 1.5rem;
   padding-inline: 1.5rem;
 
@@ -205,7 +207,9 @@ main {
     border-radius: 0.5rem;
   }
 
-  [class|="join-card"] {
+  .join-card-hero,
+  .join-card-cta,
+  .join-card-why {
     padding-block: 0;
     padding-inline: 2.5rem;
   }
