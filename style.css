@@ -43,6 +43,22 @@ main {
   align-items: center;
 }
 
+.button {
+  display: block;
+
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+  font-size: 15px;
+  font-weight: bold;
+
+  background-color: var(--bright-yellow);
+
+  padding-block: 12px;
+
+  border-radius: 6px;
+}
+
 .join-grid {
   width: 311px;
   border-radius: 4px;
