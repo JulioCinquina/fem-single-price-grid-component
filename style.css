@@ -52,22 +52,57 @@ main {
 
 .join-card-hero h2 {
   color: var(--cyan);
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .join-card-hero p:first-of-type {
   color: var(--bright-yellow);
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .join-card-hero p {
   color: var(--grayish-blue);
+  font-size: 13px;
 }
 
 .join-card-cta {
   background-color: var(--cyan);
 }
 
+.join-card-cta h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.join-card-cta__pricing span:nth-of-type(1) {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.join-card-cta__pricing span:nth-of-type(2) {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.join-card-cta p {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
 .join-card-why {
   background-color: var(--light-cyan);
+}
+
+.join-card-why h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.join-card-why ul {
+  font-size: 13px;
+  opacity: 0.7;
 }
 
 .visually-hidden {
