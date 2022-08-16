@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution on Frontend Mentor]()
-- [Live Site on GitHub Pages]()
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-component-with-css-grid-and-mobilefirst-media-queries-gNfx1nOVw3)
+- [Live Site on GitHub Pages](https://juliocinquina.github.io/fem-single-price-grid-component/)
 
 ### Screenshots
 
