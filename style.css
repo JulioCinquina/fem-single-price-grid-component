@@ -47,9 +47,8 @@ main {
   color: var(--light-gray);
 }
 
-[class|="join-card"] > *:first-child,
-[class|="join-card"] > *:last-child {
-  margin: 0;
+.join-card-hero {
+  background-color: #fff;
 }
 
 .join-card-hero h2 {
