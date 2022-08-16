@@ -60,6 +60,8 @@ main {
   padding-block: 0.75rem;
 
   border-radius: 0.375rem;
+
+  box-shadow: 0 0.375rem 0.75rem rgb(0 0 0 / 0.15);
 }
 
 .button:hover,
@@ -76,6 +78,8 @@ main {
   width: min(19.5rem, 90%);
   border-radius: 0.25rem;
   overflow: hidden;
+
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 0.15);
 }
 
 [class|="join-card"] {
