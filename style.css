@@ -43,6 +43,12 @@ main {
   align-items: center;
 }
 
+.join-grid {
+  width: 311px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
 [class|="join-card"] {
   padding-block: 24px;
   padding-inline: 24px;
