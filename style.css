@@ -172,3 +172,49 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 720px) {
+  .button {
+    font-size: 16px;
+  }
+
+  .join-grid {
+    width: 635px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+
+    border-radius: 8px;
+  }
+
+  [class|="join-card"] {
+    padding-block: 0;
+    padding-inline: 40px;
+  }
+
+  .join-card-hero {
+    grid-column: span 2;
+    padding-block: 34px;
+  }
+
+  .join-card-hero h2 {
+    font-size: 24px;
+  }
+
+  .join-card-hero p:first-of-type {
+    font-size: 18px;
+    margin-block-end: 8px;
+  }
+
+  .join-card-hero p {
+    margin-block-start: 0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .join-card-cta,
+  .join-card-why {
+    padding-block: 40px;
+  }
+}
